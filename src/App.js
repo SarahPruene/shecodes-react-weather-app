@@ -5,10 +5,13 @@ function App() {
   return (
     <div className='App'>
       <div className='container'>
-        <Weather defaultCity='London'/>
+        <Weather defaultCity='London' />
         <footer>
           This project was coded by <span>Sarah</span> and is{' '}
-          <a href='/' target='_blank'>
+          <a
+            href='https://github.com/SarahPruene/shecodes-react-weather-app'
+            target='_blank'
+          >
             open-sourced on Github
           </a>{' '}
           <br />
