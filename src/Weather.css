@@ -1,0 +1,57 @@
+.Weather {
+  width: 800px;
+  height: auto;
+  background: #ebfcfb;
+  background-image: linear-gradient(180deg, #d4e4e3, #cedfd9);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.Weather form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.Weather form .search-city {
+  width: 70%;
+  height: 32px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #4f8a86;
+  font-size: 1.25rem;
+  color: #4f8a86;
+  text-align: center;
+}
+
+.Weather form .search-city:focus {
+  outline: none;
+}
+
+.Weather form .btn {
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  background-color: #4f8a86;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin-left: 20px;
+  border: 1px solid #4f8a86;
+}
+
+@media screen and (max-width: 768px) {
+  .Weather {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Weather {
+    width: 600px;
+  }
+}

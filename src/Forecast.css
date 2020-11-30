@@ -1,0 +1,45 @@
+.Forecast {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ForecastBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 10px;
+}
+
+.ForecastBox .forecast-title,
+.ForecastBox .forecast-temp {
+  font-size: 1rem;
+}
+
+.ForecastBox .forecast-icon {
+  width: 36px;
+  height: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  .Forecast {
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .ForecastBox {
+    padding: 10px 15px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .ForecastBox .forecast-icon {
+    width: 45px;
+    height: 45px;
+  }
+}
